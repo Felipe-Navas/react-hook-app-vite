@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Memorize } from './06-memos/Memorize'
+import { CallbackHook } from './06-memos/useCallback/CallbackHook'
+// import { MemoHook } from './06-memos/useMemo/MemoHook'
+// import { Memorize } from './06-memos/Memorize'
 // import { HooksApp } from './HooksApp'
 // import { CounterApp } from './01-useState/CounterApp'
 // import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
@@ -21,6 +23,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <MultipleCustomHooks /> */}
     {/* <FocusScreen /> */}
     {/* <Layout /> */}
-    <Memorize />
+    {/* <Memorize /> */}
+    {/* <MemoHook /> */}
+    <CallbackHook />
   </React.StrictMode>
 )
