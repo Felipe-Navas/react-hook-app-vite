@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Father } from './07-tarea-memo/Father'
+// import { Father } from './07-tarea-memo/Father'
 // import { CallbackHook } from './06-memos/useCallback/CallbackHook'
 // import { MemoHook } from './06-memos/useMemo/MemoHook'
 // import { Memorize } from './06-memos/Memorize'
@@ -12,6 +12,9 @@ import { Father } from './07-tarea-memo/Father'
 // import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
 // import { FocusScreen } from './04-useRef/FocusScreen'
 // import { Layout } from './05-useLayoutEffect/LAyout'
+// import './08-useReducer/intro-reducer'
+import { TodoApp } from './08-useReducer/TodoApp'
+
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -27,6 +30,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <Memorize /> */}
     {/* <MemoHook /> */}
     {/* <CallbackHook /> */}
-    <Father />
+    {/* <Father /> */}
+    <TodoApp />
   </React.StrictMode>
 )
