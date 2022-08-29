@@ -13,24 +13,29 @@ import ReactDOM from 'react-dom/client'
 // import { FocusScreen } from './04-useRef/FocusScreen'
 // import { Layout } from './05-useLayoutEffect/LAyout'
 // import './08-useReducer/intro-reducer'
-import { TodoApp } from './08-useReducer/TodoApp'
+// import { TodoApp } from './08-useReducer/TodoApp'
+import { MainApp } from './09-useContext/MainApp'
+import { BrowserRouter } from 'react-router-dom'
 
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    {/* <HooksApp /> */}
-    {/* <CounterApp /> */}
-    {/* <CounterWithCustomHook /> */}
-    {/* <SimpleForm /> */}
-    {/* <FormWithCustomHook /> */}
-    {/* <MultipleCustomHooks /> */}
-    {/* <FocusScreen /> */}
-    {/* <Layout /> */}
-    {/* <Memorize /> */}
-    {/* <MemoHook /> */}
-    {/* <CallbackHook /> */}
-    {/* <Father /> */}
-    <TodoApp />
-  </React.StrictMode>
+  <BrowserRouter>
+    {/* <React.StrictMode> */}
+      {/* <HooksApp /> */}
+      {/* <CounterApp /> */}
+      {/* <CounterWithCustomHook /> */}
+      {/* <SimpleForm /> */}
+      {/* <FormWithCustomHook /> */}
+      {/* <MultipleCustomHooks /> */}
+      {/* <FocusScreen /> */}
+      {/* <Layout /> */}
+      {/* <Memorize /> */}
+      {/* <MemoHook /> */}
+      {/* <CallbackHook /> */}
+      {/* <Father /> */}
+      {/* <TodoApp /> */}
+      <MainApp />
+    {/* </React.StrictMode> */}
+  </BrowserRouter>
 )
