@@ -28,7 +28,8 @@ This README would normally document whatever steps are necessary to get your app
 
 - Dependencies
   - "react": "^18.2.0",
-  - "react-dom": "^18.2.0"
+  - "react-dom": "^18.2.0",
+  - "react-router-dom": "^6.3.0"
 
 - Dev Dependencies
   - "@types/react": "^18.0.15",
