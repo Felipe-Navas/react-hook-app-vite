@@ -2,8 +2,14 @@ import { TodoList, TodoAdd } from './'
 import { useTodos } from '../hooks'
 
 export const TodoApp = () => {
-  const { todos, todosCount, pendingTodosCount, handleNewTodo, handleDeleteTodo, handleToggleTodo } =
-    useTodos()
+  const {
+    todos,
+    todosCount,
+    pendingTodosCount,
+    handleNewTodo,
+    handleDeleteTodo,
+    handleToggleTodo,
+  } = useTodos()
 
   return (
     <>
