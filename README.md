@@ -32,10 +32,18 @@ This README would normally document whatever steps are necessary to get your app
   - "react-router-dom": "^6.3.0"
 
 - Dev Dependencies
+  - "@babel/preset-env": "^7.18.10",
+  - "@babel/preset-react": "^7.18.6",
+  - "@testing-library/react": "^13.3.0",
+  - "@types/jest": "^29.0.0",
   - "@types/react": "^18.0.15",
   - "@types/react-dom": "^18.0.6",
   - "@vitejs/plugin-react": "^2.0.0",
-  - "vite": "^3.0.0"
+  - "babel-jest": "^29.0.1",
+  - "jest": "^29.0.1",
+  - "jest-environment-jsdom": "^29.0.1",
+  - "vite": "^3.0.0",
+  - "whatwg-fetch": "^3.6.2"
 
 ### Contribution guidelines
 
