@@ -1,12 +1,22 @@
 {
   "name": "react-hook-app-vite",
   "homepage": "https://Felipe-Navas.github.io/react-hook-app-vite",
-  "private": true,
   "version": "1.0.0",
+  "description": "A Simple App with vite",
+  "main": "/src/main.jsx",
+  "author": "Felipe Navas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipe-Navas/react-hook-app-vite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Felipe-Navas/react-hook-app-vite/issues"
+  },
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build  --base=./",
     "preview": "vite preview",
     "test": "jest --watchAll"
   },
